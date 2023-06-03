@@ -281,14 +281,14 @@
         myt.root = myt.insert(myt.root, 5);
 
         /* The constructed AVL Tree would be
-			 30
-			/ \
+	            30
+		    / \
 		   20 40
 		  / \  \
 		 10 25 50
-         /
-        5
-		*/
+         	/
+        	5
+	*/
         
         myt.preOrder(myt.root);
         System.out.println("\nroot: " + myt.root.getData());
