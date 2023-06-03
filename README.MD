@@ -9,3 +9,4 @@
 * [Queue](./Queue)
     * [Queue using Linked List](./Queue/QueueWithList.java)
 * [Binary Search Tree](./Binary%20Search%20Tree/)
+* [Avl Tree](./AvlTree.java)
