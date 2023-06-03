@@ -223,5 +223,27 @@ public class BinarySearchTree{
             System.out.println(" " + root.getData());
         }
 
+        public int height(Node root){
+            if(root == null){
+                return 0;
+            }
+
+            int lDepth = height(root.getLeft());
+            int rDepth = height(root.getRight());
+
+            if(lDepth > rDepth){
+                return lDepth + 1;
+            }
+
+            return rDepth + 1;
+        }
+
+        public int nodeCount(Node root){
+            if(root == null){
+                return 0;
+            }
+
+            return nodeCount(root.getLeft()) + nodeCount(root.getRight()) + 1;
+        }
     
 }
