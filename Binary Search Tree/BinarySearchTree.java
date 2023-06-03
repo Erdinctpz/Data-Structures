@@ -46,7 +46,7 @@ public class BinarySearchTree{
         }
 
         public void add(int value){
-            //Check if value already exits in this tree.
+            //Check if value already exists in this tree.
             if(search(value)){   
                 return; 
             }
